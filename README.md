@@ -18,7 +18,7 @@ npm install @asince_npm/mongodb-crud
 ### Initiating
 
 ```js
-import MongodbClient from "@asince_npm/mongodb-crud";
+import MongodbClient from "@asince_npm/mongodb-crud/index.js";
 
 (async () => {
     const mongodb = new MongodbClient();
