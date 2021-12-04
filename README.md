@@ -281,7 +281,7 @@ printf 'MONGODB_USERNAME=<username>\nMONGODB_PASSWORD=<password>\nMONGODB_CLUSTE
 ````
 ### Run Command
 ```bash
-bash node_modules/@asince_npm/mongodb-crud/scripts.sh
+bash node_modules/@asince_npm/mongodb-crud/script.sh
 ```
 
 #### Response .env file contents
