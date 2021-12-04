@@ -32,7 +32,7 @@ import MongodbClient from "@asince_npm/mongodb-crud";
 
 #### Response
 
-```json
+```
 Collection name:  USERS
 ```
 
@@ -87,7 +87,7 @@ console.log("\nMultiple documents created: ", createMultipleDocuments);
 
 #### Response
 
-````json
+````
 One document created:  {
   acknowledged: true,
   insertedId: new ObjectId("61ab6add855830dae26f42c1")
@@ -126,7 +126,7 @@ console.log("\nFound documents: ", findDocuments);
 
 #### Response
 
-```json
+```
 Found documents:  [
   {
     _id: new ObjectId("61ab6add855830dae26f42c3"),
@@ -207,7 +207,7 @@ console.log("\nMultiple Document Updated: ", updateMultipleDocuments);
 
 #### Response
 
-```json
+```
 Document Updated:  {
   acknowledged: true,
   modifiedCount: 0,
@@ -257,7 +257,7 @@ console.log("\nDeleted Multiple Documents: ", deleteMultipleDocuments);
 
 #### Response
 
-```json
+```
 Deleted One Document:  {acknowledged: true, deletedCount: 1}
 
 Deleted Multiple Documents: {acknowledged: true, deletedCount: 3
